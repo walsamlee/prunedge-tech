@@ -1,0 +1,39 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+
+  .title {
+    width: 1000px;
+    margin: 73px auto 36px;
+
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      color: #43536F;
+      font-weight: 400;
+    }
+  }
+
+  .activity {
+    display: flex;
+    flex-direction: row; 
+    
+    &__recent {
+      width: 658px;
+      height: 623px;
+      margin: 0 20px 0 0;
+      padding: 10px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 24px #F1F2F4;
+    }
+
+    &__filter {
+      width: 325px;
+      height: 374px;
+      padding: 10px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 24px #F1F2F4;
+    }
+  }
+}
