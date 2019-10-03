@@ -32,7 +32,7 @@ const Menu = () => (
     <div className="filler"></div>
     <div className="item">
       <a className="logout" href="/">
-        <i class="fas fa-arrow-circle-left"></i> Log Out
+        <i className="fas fa-arrow-circle-left"></i> Log Out
       </a>
     </div>
   </div>
