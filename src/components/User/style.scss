@@ -1,0 +1,55 @@
+.user {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin: 0;
+  }
+
+  &__image {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto 10px;
+    padding: 5px;
+    border: 2px solid #7396FD;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    img {
+      width: 100%;
+      margin: 2px auto;
+      border-radius: 16px;
+      object-fit: contain;
+    }
+  }
+
+  &__fullname, &__designation, &__department {
+    display: flex;
+    justify-content: center;
+    margin: 1px 0;
+  }
+
+  &__fullname {
+    p {
+      font-size: 14px;
+      line-height: 16px;
+      color: #5F5C7F;
+    }
+  }
+
+  &__designation {
+    p {
+      font-size: 10px;
+      line-height: 18px;
+      color: #8A94A6;
+    }
+  }
+
+  &__department {
+    p {
+      font-size: 8px;
+      line-height: 18px;
+      color: #ACAFB1;
+    }
+  }
+}
