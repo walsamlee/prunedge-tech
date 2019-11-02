@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 222px;
+  height: 253px;
+  margin: 50px 10px;
+  padding: 28px;
+  text-align: left;
+  background-color: #ffffff;
+
+  h1 {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 800;
+    color: #4e586a;
+    line-height: 1.4;
+    text-transform: uppercase;
+  }
+
+  h1:after {
+    content: "";
+    display: block;
+    width: 40px;
+    padding-top: 8px;
+    border-bottom: 2px solid #0C66FF;
+  }
+
+  .header {
+    margin-bottom: 50px;
+  }
+
+  .document {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+
+    .doc-icon i {
+      font-size: 22px;
+      color: #7396fd;
+    }
+
+    .doc-text {
+      padding: 0 10px;
+    }
+
+    .doc-text h2 {
+      margin: 0;
+      font-size: 11px;
+      color: #53627c;
+    }
+
+    .doc-text p {
+      margin: 0;
+      font-size: 9px;
+      color: #a6aebc;
+    }
+  }
+}
